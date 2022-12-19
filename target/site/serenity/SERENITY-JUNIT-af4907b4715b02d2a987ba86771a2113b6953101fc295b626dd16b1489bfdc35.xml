@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Product Type Admin" skipped="0" tests="2" time="15.52" timestamp="2022-12-19 04:05:43"><testcase name="admin get all Product Type"/><testcase name="admin get a Product Type by Id"/></testsuite>

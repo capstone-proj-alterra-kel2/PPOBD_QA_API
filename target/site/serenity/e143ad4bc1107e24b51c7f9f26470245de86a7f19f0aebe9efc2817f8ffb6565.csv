@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register","Register with phone_number email password","SUCCESS","2022-12-19T16:05:51.9946211+07:00[Asia/Jakarta]","0.0","1.42"
+"Register","Register with name email password","SUCCESS","2022-12-19T16:05:53.4298556+07:00[Asia/Jakarta]","0.0","2.03"
+"Register","Register with name phone_number password","SUCCESS","2022-12-19T16:05:55.4717727+07:00[Asia/Jakarta]","0.0","1.46"
+"Register","Register with name phone_number email","SUCCESS","2022-12-19T16:05:56.9596277+07:00[Asia/Jakarta]","0.0","2.87"
+"Register","Register with no data","SUCCESS","2022-12-19T16:05:59.8422989+07:00[Asia/Jakarta]","0.0","1.59"
+"Register","Register with register account","SUCCESS","2022-12-19T16:06:01.4413988+07:00[Asia/Jakarta]","0.0","1.93"

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product Type Admin","admin get all Product Type","SUCCESS","2022-12-19T16:05:43.9944784+07:00[Asia/Jakarta]","0.0","12.29"
+"Product Type Admin","admin get a Product Type by Id","SUCCESS","2022-12-19T16:05:56.2958914+07:00[Asia/Jakarta]","0.0","3.23"

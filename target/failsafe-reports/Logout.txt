@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Logout
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.745 s <<< FAILURE! - in Logout
+Logout.logout with valid token  Time elapsed: 8.645 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+

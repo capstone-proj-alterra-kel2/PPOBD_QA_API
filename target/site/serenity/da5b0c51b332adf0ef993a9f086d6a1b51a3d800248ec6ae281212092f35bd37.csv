@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Wallet Admin","admin get a Wallet by id","FAILURE","2022-12-19T16:05:54.9356155+07:00[Asia/Jakarta]","0.0","3.92"
+"Logout","logout with valid token","FAILURE","2022-12-19T16:05:44.453196+07:00[Asia/Jakarta]","0.0","7.49"
+"Register","Register with name phone_number email password","FAILURE","2022-12-19T16:05:44.7490126+07:00[Asia/Jakarta]","0.0","7.19"

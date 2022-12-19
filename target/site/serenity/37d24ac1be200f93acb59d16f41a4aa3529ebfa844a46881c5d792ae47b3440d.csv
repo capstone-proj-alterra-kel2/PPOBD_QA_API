@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Transaction User","user buy the item","SUCCESS","2022-12-19T16:05:44.6610676+07:00[Asia/Jakarta]","0.0","10.26"
+"Transaction User","user view the history","SUCCESS","2022-12-19T16:05:54.9516017+07:00[Asia/Jakarta]","0.0","4.47"

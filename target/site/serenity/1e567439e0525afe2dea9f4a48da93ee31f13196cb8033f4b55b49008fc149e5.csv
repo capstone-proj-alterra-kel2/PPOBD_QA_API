@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Wallet User","user top up balance","SUCCESS","2022-12-19T16:05:44.8229673+07:00[Asia/Jakarta]","0.0","6.62"
+"Wallet User","user get my wallet","SUCCESS","2022-12-19T16:05:51.4559548+07:00[Asia/Jakarta]","0.0","5.49"
+"Wallet User","user get my wallet history","SUCCESS","2022-12-19T16:05:56.9706205+07:00[Asia/Jakarta]","0.0","2.82"
+"Wallet User","user get my wallet cashin cashout","SUCCESS","2022-12-19T16:05:59.8023262+07:00[Asia/Jakarta]","0.0","1.57"

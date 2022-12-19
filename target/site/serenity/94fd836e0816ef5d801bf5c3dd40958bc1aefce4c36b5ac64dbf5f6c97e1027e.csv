@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Category Admin","admin get all Category","SUCCESS","2022-12-19T16:05:44.6380822+07:00[Asia/Jakarta]","0.0","11.12"
+"Category Admin","admin get a Category id","SUCCESS","2022-12-19T16:05:55.7695894+07:00[Asia/Jakarta]","0.0","4.18"

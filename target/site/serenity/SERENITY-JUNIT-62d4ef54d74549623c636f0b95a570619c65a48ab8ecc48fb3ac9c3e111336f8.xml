@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Wallet User" skipped="0" tests="4" time="16.5" timestamp="2022-12-19 04:05:44"><testcase name="user top up balance"/><testcase name="user get my wallet"/><testcase name="user get my wallet history"/><testcase name="user get my wallet cashin cashout"/></testsuite>

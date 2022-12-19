@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Logout","logout with invalid token","SUCCESS","2022-12-19T16:05:51.9636397+07:00[Asia/Jakarta]","0.0","1.46"
+"Logout","logout with null token","SUCCESS","2022-12-19T16:05:53.4458438+07:00[Asia/Jakarta]","0.0","1.38"

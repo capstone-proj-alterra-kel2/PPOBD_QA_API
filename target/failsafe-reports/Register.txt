@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Register
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.291 s <<< FAILURE! - in Register
+Register.Register with name phone_number email password  Time elapsed: 8.635 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+1 expectation failed.
+Expected status code <201> but was <400>.
+
+

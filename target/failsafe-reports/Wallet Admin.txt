@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Wallet Admin
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.767 s <<< FAILURE! - in Wallet Admin
+Wallet Admin.admin get a Wallet by id  Time elapsed: 3.933 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+

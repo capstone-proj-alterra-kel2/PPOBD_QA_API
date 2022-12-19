@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Provider Admin","admin get all Provider","SUCCESS","2022-12-19T16:05:44.7699996+07:00[Asia/Jakarta]","0.0","9.19"
+"Provider Admin","admin get a Provider by id","SUCCESS","2022-12-19T16:05:53.9762637+07:00[Asia/Jakarta]","0.0","5.75"

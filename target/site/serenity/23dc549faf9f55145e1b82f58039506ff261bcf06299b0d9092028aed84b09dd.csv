@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product User","user get all product","SUCCESS","2022-12-19T16:05:44.842954+07:00[Asia/Jakarta]","0.0","16.08"
+"Product User","user get product by id","SUCCESS","2022-12-19T16:06:00.9307446+07:00[Asia/Jakarta]","0.0","6.71"
