@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Product Admin","admin get all product","SUCCESS","2022-12-19T16:05:44.7989825+07:00[Asia/Jakarta]","0.0","11.38"
-"Product Admin","admin get a product by id","SUCCESS","2022-12-19T16:05:56.1919533+07:00[Asia/Jakarta]","0.0","5.3"
+"Product Admin","admin get all product","SUCCESS","2022-12-22T23:31:44.0168581+07:00[Asia/Jakarta]","0.0","5.79"
+"Product Admin","admin get a product by id","SUCCESS","2022-12-22T23:31:50.0431368+07:00[Asia/Jakarta]","0.0","0.46"
+"Product Admin","admin get all product no token","SUCCESS","2022-12-22T23:31:50.5218409+07:00[Asia/Jakarta]","0.0","0.84"
+"Product Admin","admin get a product by id no token","SUCCESS","2022-12-22T23:31:51.3763107+07:00[Asia/Jakarta]","0.0","0.29"

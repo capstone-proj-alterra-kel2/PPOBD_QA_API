@@ -1,6 +1,9 @@
 package Starter.Project.Auth;
 
+import org.hamcrest.Matchers;
+
 import static net.serenitybdd.rest.SerenityRest.*;
+import static org.hamcrest.Matchers.equalTo;
 public class Logout {
 
     private String url,token,token1;
@@ -32,6 +35,9 @@ public class Logout {
 
     public void statusSucces() {
         then().statusCode(200);
+    }
+    public void validsucces() {
+        then().body("succes", Matchers.equalTo("Succes Logout"));
     }
     public void invalidtoken() {
         then().statusCode(401);

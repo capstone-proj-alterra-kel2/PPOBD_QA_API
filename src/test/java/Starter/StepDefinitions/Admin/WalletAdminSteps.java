@@ -14,14 +14,14 @@ public class WalletAdminSteps {
         walletAdmin.setUrlToWalletAdmin();
     }
 
-    @When("I get Wallet by id")
-    public void iGetWalletById() {
+    @When("I get Wallet by id wrong")
+    public void iGetWalletByIdWrong() {
         walletAdmin.WalletAdminById();
     }
 
-    @Then("I will get status succes get Wallet by id")
-    public void iWillGetStatusSuccesGetWalletById() {
-        walletAdmin.statusSucces();
+    @Then("I will get status failed get Wallet by id")
+    public void iWillGetStatusFailedGetWalletById() {
+        walletAdmin.statusfailed404();
     }
 
     @When("I get Wallet all")
@@ -32,5 +32,25 @@ public class WalletAdminSteps {
     @Then("I will get status succes get Wallet all")
     public void iWillGetStatusSuccesGetWalletAll() {
         walletAdmin.statusSucces();
+    }
+
+    @When("I get Wallet all no token")
+    public void iGetWalletAllNoToken() {
+        walletAdmin.WalletAdminnotoken();
+    }
+
+    @Then("I will get status failed get Wallet all")
+    public void iWillGetStatusFailedGetWalletAll() {
+        walletAdmin.statusfailed();
+    }
+
+    @When("I get Wallet by id no token")
+    public void iGetWalletByIdNoToken() {
+        walletAdmin.WalletAdminByIdnotoken();
+    }
+
+    @Then("I will get status failed get Wallet")
+    public void iWillGetStatusFailedGetWallet() {
+        walletAdmin.statusfailed();
     }
 }

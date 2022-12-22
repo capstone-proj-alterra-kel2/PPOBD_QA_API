@@ -8,7 +8,7 @@ public class ProductUsers {
     public void setUrlToProduct(){
         url ="https://foodnih.com/v1/users/products";
         url1 ="https://foodnih.com/v1/users/products/110";
-        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYwLCJleHAiOjE2NzE1MjUzNTEsImhhc19yb2xlIjoidXNlciJ9.G_W5lsh94hA7sc3_H_Sd0bTv1jfjwiPPGOZga0iIWJM";
+        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYwLCJleHAiOjE2NzE4MTMwMTQsImhhc19yb2xlIjoidXNlciJ9.fMScXFlR4Ytlx3A9vl5M8KWNhad5FEyfm67aqrznDoc";
     }
     public void ProductAllProduct(){
         given().header("accept", "application/json")
@@ -22,7 +22,20 @@ public class ProductUsers {
                 .header("Authorization", "Bearer " + token);
         when().get(url1);
     }
+    public void ProductAllProductnotoken(){
+        given().header("accept", "application/json")
+                .header("Content-Type", "application/json");
+        when().get(url);
+    }
+    public void ProductByIdnotoken(){
+        given().header("accept", "application/json")
+                .header("Content-Type", "application/json");
+        when().get(url1);
+    }
     public void statusSucces() {
         then().statusCode(200);
+    }
+    public void statusfailed() {
+        then().statusCode(400);
     }
 }

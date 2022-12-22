@@ -12,3 +12,13 @@ Feature: Product User
     Given I set url product
     When I get user product by id
     Then I will get status succes get user product by id
+
+  Scenario: user get product no token
+    Given I set url product
+    When I get user product no token
+    Then I will get status failed get a product
+
+  Scenario: user get product by id no token
+    Given I set url product
+    When I get user product by id no token
+    Then I will get status failed get a product

@@ -31,4 +31,19 @@ public class ProductAdminSteps {
     public void iWillGetStatusSuccesGetProductById() {
         productAdmin.statusSucces();
     }
+
+    @When("I get all product no token")
+    public void iGetAllProductNoToken() {
+        productAdmin.productAdminnotoken();
+    }
+
+    @Then("I will get status failed product")
+    public void iWillGetStatusFailedProduct() {
+        productAdmin.statusfailed();
+    }
+
+    @When("I get product by id no token")
+    public void iGetProductByIdNoToken() {
+        productAdmin.productAdminByIdnotoken();
+    }
 }

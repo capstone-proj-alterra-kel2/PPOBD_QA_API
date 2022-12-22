@@ -34,6 +34,19 @@ public class ProductUserSteps {
         product.statusSucces();
     }
 
+    @When("I get user product no token")
+    public void iGetUserProductNoToken() {
+        product.ProductAllProductnotoken();
+    }
 
+    @Then("I will get status failed get a product")
+    public void iWillGetStatusFailedGetAProduct() {
+        product.statusfailed();
+    }
+
+    @When("I get user product by id no token")
+    public void iGetUserProductByIdNoToken() {
+        product.ProductByIdnotoken();
+    }
 }
 

@@ -29,5 +29,25 @@ public class ProductTypeUsersSteps {
     public void iGetProductTypeById() {
         productType.ProductTypebyid();
     }
+
+    @When("I get product type no token")
+    public void iGetProductTypeNoToken() {
+        productType.ProductTypenotoken();
+    }
+
+    @When("I get product type by id no token")
+    public void iGetProductTypeByIdNoToken() {
+        productType.ProductTypebyidnotoken();
+    }
+
+    @Then("I will get status succes product by type no token")
+    public void iWillGetStatusSuccesProductByTypeNoToken() {
+        productType.statusfailed();
+    }
+
+    @Then("I will get status failed product type no token")
+    public void iWillGetStatusFailedProductTypeNoToken() {
+        productType.statusfailed();
+    }
 }
 

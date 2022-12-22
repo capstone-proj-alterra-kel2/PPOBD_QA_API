@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Logout" skipped="0" tests="3" time="10.33" timestamp="2022-12-19 04:05:44"><testcase name="logout with valid token"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Logout" skipped="0" tests="3" time="6.85" timestamp="2022-12-22 11:31:43"><testcase name="logout with valid token"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;401&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;401&gt;.
@@ -12,7 +12,7 @@ groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
 groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)&#13;
 io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)&#13;
-SerenityRest@1.0-SNAPSHOT/Starter.Project.Auth.Logout.statusSucces(Logout.java:34)&#13;
+SerenityRest@1.0-SNAPSHOT/Starter.Project.Auth.Logout.statusSucces(Logout.java:37)&#13;
 SerenityRest@1.0-SNAPSHOT/Starter.StepDefinitions.Auth.LogoutSteps.iWillGetStatusSuccesLogout(LogoutSteps.java:25)&#13;
 io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
 io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;

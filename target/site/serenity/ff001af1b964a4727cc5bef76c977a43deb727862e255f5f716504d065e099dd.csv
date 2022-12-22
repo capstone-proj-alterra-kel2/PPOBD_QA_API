@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Provider Admin","admin get all Provider","SUCCESS","2022-12-19T16:05:44.7699996+07:00[Asia/Jakarta]","0.0","9.19"
-"Provider Admin","admin get a Provider by id","SUCCESS","2022-12-19T16:05:53.9762637+07:00[Asia/Jakarta]","0.0","5.75"
+"Provider Admin","admin get all Provider","SUCCESS","2022-12-22T23:31:43.9049264+07:00[Asia/Jakarta]","0.0","5.99"
+"Provider Admin","admin get a Provider by id","SUCCESS","2022-12-22T23:31:50.2410165+07:00[Asia/Jakarta]","0.0","1.64"
+"Provider Admin","admin get all Provider no token","SUCCESS","2022-12-22T23:31:51.8969879+07:00[Asia/Jakarta]","0.0","0.35"
+"Provider Admin","admin get a Provider by id no token","SUCCESS","2022-12-22T23:31:52.2647607+07:00[Asia/Jakarta]","0.0","1.11"

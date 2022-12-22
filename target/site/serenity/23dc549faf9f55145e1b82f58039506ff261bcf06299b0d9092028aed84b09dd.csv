@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Product User","user get all product","SUCCESS","2022-12-19T16:05:44.842954+07:00[Asia/Jakarta]","0.0","16.08"
-"Product User","user get product by id","SUCCESS","2022-12-19T16:06:00.9307446+07:00[Asia/Jakarta]","0.0","6.71"
+"Product User","user get all product","SUCCESS","2022-12-22T23:31:43.8549578+07:00[Asia/Jakarta]","0.0","6.7"
+"Product User","user get product by id","SUCCESS","2022-12-22T23:31:50.5788073+07:00[Asia/Jakarta]","0.0","0.95"
+"Product User","user get product no token","SUCCESS","2022-12-22T23:31:51.5472039+07:00[Asia/Jakarta]","0.0","0.33"
+"Product User","user get product by id no token","SUCCESS","2022-12-22T23:31:51.9079812+07:00[Asia/Jakarta]","0.0","0.32"

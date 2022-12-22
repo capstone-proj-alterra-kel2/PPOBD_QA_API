@@ -30,4 +30,20 @@ public class CategoryAdminSteps {
     public void iWillGetStatusSuccesGetCategoryId() {
         categoryAdmin.statusSucces();
     }
+
+    @When("I get all Category no token")
+    public void iGetAllCategoryNoToken() {categoryAdmin.categoryAdminnotoken();
+    }
+
+    @Then("I will get status failed get all Category no token")
+    public void iWillGetStatusFailedGetAllCategoryNoToken() {categoryAdmin.statusfailed();
+    }
+
+    @When("I get Category id no token")
+    public void iGetCategoryIdNoToken() {categoryAdmin.CategoryAdminByIdnotoken();
+    }
+
+    @Then("I will get status failed get Category id no token")
+    public void iWillGetStatusFailedGetCategoryIdNoToken() {categoryAdmin.statusfailed();
+    }
 }

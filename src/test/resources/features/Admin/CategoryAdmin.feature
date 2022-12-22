@@ -14,5 +14,15 @@ Feature: Category Admin
     When I get Category id
     Then I will get status succes get Category id
 
+  Scenario: admin get all Category no token
+    Given I set url Category
+    When I get all Category no token
+    Then I will get status failed get all Category no token
+
+  Scenario: admin get a Category id no token
+    Given I set url Category
+    When I get Category id no token
+    Then I will get status failed get Category id no token
+
 
 

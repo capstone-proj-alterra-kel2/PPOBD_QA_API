@@ -1,2 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Wallet Admin","admin get All Wallet","SUCCESS","2022-12-19T16:05:44.5631284+07:00[Asia/Jakarta]","0.0","10.35"
+"Wallet Admin","admin get All Wallet","SUCCESS","2022-12-22T23:31:43.8869377+07:00[Asia/Jakarta]","0.0","5.92"
+"Wallet Admin","admin get a Wallet by id","SUCCESS","2022-12-22T23:31:50.1480731+07:00[Asia/Jakarta]","0.0","0.6"
+"Wallet Admin","admin get All Wallet no token","SUCCESS","2022-12-22T23:31:50.7816792+07:00[Asia/Jakarta]","0.0","0.26"
+"Wallet Admin","admin get a Wallet by id no token","SUCCESS","2022-12-22T23:31:51.0665021+07:00[Asia/Jakarta]","0.0","0.35"

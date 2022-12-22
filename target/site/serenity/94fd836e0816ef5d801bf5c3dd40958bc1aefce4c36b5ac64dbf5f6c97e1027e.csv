@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Category Admin","admin get all Category","SUCCESS","2022-12-19T16:05:44.6380822+07:00[Asia/Jakarta]","0.0","11.12"
-"Category Admin","admin get a Category id","SUCCESS","2022-12-19T16:05:55.7695894+07:00[Asia/Jakarta]","0.0","4.18"
+"Category Admin","admin get all Category","SUCCESS","2022-12-22T23:31:44.1137981+07:00[Asia/Jakarta]","0.0","5.65"
+"Category Admin","admin get a Category id","SUCCESS","2022-12-22T23:31:49.7773032+07:00[Asia/Jakarta]","0.0","2.26"
+"Category Admin","admin get all Category no token","SUCCESS","2022-12-22T23:31:52.0468948+07:00[Asia/Jakarta]","0.0","0.28"
+"Category Admin","admin get a Category id no token","SUCCESS","2022-12-22T23:31:52.3377172+07:00[Asia/Jakarta]","0.0","0.99"

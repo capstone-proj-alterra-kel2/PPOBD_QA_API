@@ -13,3 +13,13 @@ Feature: Transaction User
     Given I set url user transaction
     When I get Transaction history
     Then I will get status succes Transaction
+
+  Scenario: user buy the item no token
+    Given I set url user transaction
+    When I get create a transaction no token
+    Then I will get status failed transaction
+
+  Scenario: user view the history no token
+    Given I set url user transaction
+    When I get Transaction history no token
+    Then I will get status failed transaction

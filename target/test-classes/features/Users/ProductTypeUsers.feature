@@ -13,3 +13,13 @@ Feature: Product Type User
     Given I set url product type
     When I get product type by id
     Then I will get status succes product by type
+
+  Scenario: user get product type no token
+    Given I set url product type
+    When I get product type no token
+    Then I will get status failed product type no token
+
+  Scenario: user get product type by id no token
+    Given I set url product type
+    When I get product type by id no token
+    Then I will get status failed product type no token

@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Category User
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.94 s - in Category User
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.606 s <<< FAILURE! - in Category User
+Category User.user a get Category product by id  Time elapsed: 5.153 s  <<< ERROR!
+java.lang.RuntimeException: Some exception during recording fields
+Caused by: java.net.ConnectException: Connection refused: connect
+

@@ -13,5 +13,15 @@ Feature: Product Admin
     When I get product by id
     Then I will get status succes get product by id
 
+  Scenario: admin get all product no token
+    Given I set url products
+    When I get all product no token
+    Then I will get status failed product
+
+  Scenario: admin get a product by id no token
+    Given I set url products
+    When I get product by id no token
+    Then I will get status failed product
+
 
 

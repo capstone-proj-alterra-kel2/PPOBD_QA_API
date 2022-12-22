@@ -11,7 +11,7 @@ public class Wallet {
         url1= "http://108.136.220.111/v1/user/wallet";
         url2= "http://108.136.220.111/v1/user/wallet/histories";
         url3= "http://108.136.220.111/v1/user/wallet/cashin-cashout";
-        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYwLCJleHAiOjE2NzE1MjUzNTEsImhhc19yb2xlIjoidXNlciJ9.G_W5lsh94hA7sc3_H_Sd0bTv1jfjwiPPGOZga0iIWJM";
+        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjYwLCJleHAiOjE2NzE4MTMwMTQsImhhc19yb2xlIjoidXNlciJ9.fMScXFlR4Ytlx3A9vl5M8KWNhad5FEyfm67aqrznDoc";
     }
     public JSONObject topupbalance(){
         JSONObject body = new JSONObject();
@@ -44,7 +44,38 @@ public class Wallet {
                 .header("Authorization", "Bearer " + token);
         when().get(url3);
     }
+
+    public JSONObject topupbalancenotoken(){
+        JSONObject body = new JSONObject();
+        body.put("balance",10000000);
+        return body;
+    }
+    public void Validtopupbalancenotoken(){
+        given().header("accept", "application/json")
+                .header("Content-Type", "application/json")
+                .body(topupbalancenotoken().toJSONString());
+        when().post(url);
+    }
+
+    public void infowalletnotoken(){
+        given().header("accept", "application/json")
+                .header("Content-Type", "application/json");
+        when().get(url1);
+    }
+    public void WalletHistorynotoken(){
+        given().header("accept", "application/json")
+                .header("Content-Type", "application/json");
+        when().get(url2);
+    }
+    public void WalletCashinCashoutnotoken(){
+        given().header("accept", "application/json")
+                .header("Content-Type", "application/json");
+        when().get(url3);
+    }
     public void statusSucces() {
         then().statusCode(200);
+    }
+    public void statusfailed() {
+        then().statusCode(400);
     }
 }

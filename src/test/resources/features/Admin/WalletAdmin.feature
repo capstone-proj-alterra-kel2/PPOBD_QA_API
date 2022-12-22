@@ -10,5 +10,15 @@ Feature: Wallet Admin
 
   Scenario: admin get a Wallet by id
     Given I set url Wallet
-    When I get Wallet by id
-    Then I will get status succes get Wallet by id
+    When I get Wallet by id wrong
+    Then I will get status failed get Wallet by id
+
+  Scenario: admin get All Wallet no token
+    Given I set url Wallet
+    When I get Wallet all no token
+    Then I will get status failed get Wallet all
+
+  Scenario: admin get a Wallet by id no token
+    Given I set url Wallet
+    When I get Wallet by id no token
+    Then I will get status failed get Wallet

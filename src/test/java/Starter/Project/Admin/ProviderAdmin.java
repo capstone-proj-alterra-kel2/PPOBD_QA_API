@@ -8,9 +8,8 @@ public class ProviderAdmin {
     public void setUrlToProviderAdmin() {
         url = "https://foodnih.com/v1/admin/product-types/6/providers";
         url1 = "https://foodnih.com/v1/admin/product-types/6/providers/20";
-        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZXhwIjoxNjcxNTI2NDkzLCJoYXNfcm9sZSI6InN1cGVyYWRtaW4ifQ.5_AkK-lYVNyNJGC2e6mm-KShr9wiGnE7iBmGM29KBig";
+        token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZXhwIjoxNjcxODEyMjUzLCJoYXNfcm9sZSI6InN1cGVyYWRtaW4ifQ.894JNT34t6DUjOIQjuaN3QHCtAqo6qiMsHClroIJWhk";
     }
-
     public void providerAdmin() {
         given().header("accept", "application/json")
                 .header("Content-Type", "application/json")
@@ -23,8 +22,21 @@ public class ProviderAdmin {
                 .header("Authorization", "Bearer " + token);
         when().get(url1);
     }
+    public void providerAdminnotoken() {
+        given().header("accept", "application/json")
+                .header("Content-Type", "application/json");
+        when().get(url);
+    }
+    public void ProviderAdminByidnotoken() {
+        given().header("accept", "application/json")
+                .header("Content-Type", "application/json");
+        when().get(url1);
+    }
     public void statusSucces() {
         then().statusCode(200);
+    }
+    public void statusfailed() {
+        then().statusCode(400);
     }
 }
 

@@ -53,5 +53,30 @@ public class WalletUserSteps {
     public void iWillGetStatusSuccesMyWalletCashinCashout() {
             wallet.statusSucces();
     }
+
+    @When("I get top up balance no token")
+    public void iGetTopUpBalanceNoToken() {
+            wallet.Validtopupbalancenotoken();
+    }
+
+    @Then("I will get status failed a wallet")
+    public void iWillGetStatusFailedAWallet() {
+            wallet.statusfailed();
+    }
+
+    @When("I get my wallet no token")
+    public void iGetMyWalletNoToken() {
+            wallet.infowalletnotoken();
+    }
+
+    @When("I get my wallet history no token")
+    public void iGetMyWalletHistoryNoToken() {
+            wallet.WalletHistorynotoken();
+    }
+
+    @When("I get my wallet cashin cashout no token")
+    public void iGetMyWalletCashinCashoutNoToken() {
+            wallet.WalletCashinCashoutnotoken();
+    }
 }
 

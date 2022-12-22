@@ -34,4 +34,24 @@ public class ProviderAdminSteps {
     public void iWillGetStatusSuccesGetProviderById() {
         providerAdmin.statusSucces();
     }
+
+    @When("I get all Provider no token")
+    public void iGetAllProviderNoToken() {
+        providerAdmin.providerAdminnotoken();
+    }
+
+    @Then("I will get status failed get all Provider")
+    public void iWillGetStatusFailedGetAllProvider() {
+        providerAdmin.statusfailed();
+    }
+
+    @When("I get Provider by id no token")
+    public void iGetProviderByIdNoToken() {
+        providerAdmin.ProviderAdminByidnotoken();
+    }
+
+    @Then("I will get status failed get Provider")
+    public void iWillGetStatusFailedGetProvider() {
+        providerAdmin.statusfailed();
+    }
 }

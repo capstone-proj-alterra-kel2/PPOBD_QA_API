@@ -12,6 +12,16 @@ Feature: Product Type Admin
   Scenario: admin get a Product Type by Id
     Given I set url Product Type
     When I get Product Type by id
-    Then I will get status succes get Product Product Type by id
+    Then I will get status succes get Product Type by id
+
+  Scenario: admin get all Product Type no token
+    Given I set url Product Type
+    When I get all Product Type no token
+    Then I will get status failed get all Product Type
+
+  Scenario: admin get a Product Type by Id no token
+    Given I set url Product Type
+    When I get Product Type by id no token
+    Then I will get status failed get Product
 
 

@@ -26,4 +26,23 @@ public class CategoryUserSteps {
     }
 
 
+    @When("I get a category product by id")
+    public void iGetACategoryProductById() {
+        categoryUser.categoryproductbyid();
+    }
+
+    @Then("I will get status succes get a category product by id")
+    public void iWillGetStatusSuccesGetACategoryProductById() {
+        categoryUser.statusSucces();
+    }
+
+    @When("I get a category product no token")
+    public void iGetACategoryProductNoToken() {
+        categoryUser.categoryproductnotoken();
+    }
+
+    @Then("I will get status failed get a category product")
+    public void iWillGetStatusFailedGetACategoryProduct() {
+        categoryUser.statusfailed();
+    }
 }

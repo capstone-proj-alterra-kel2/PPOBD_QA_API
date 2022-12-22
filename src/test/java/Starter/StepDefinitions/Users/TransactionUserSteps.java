@@ -35,5 +35,19 @@ public class TransactionUserSteps {
         transaction.statusSucces();
     }
 
+    @When("I get create a transaction no token")
+    public void iGetCreateATransactionNoToken() {
+        transaction.validTransactionnotoken();
+    }
+
+    @Then("I will get status failed transaction")
+    public void iWillGetStatusFailedTransaction() {
+        transaction.statusfailed();
+    }
+
+    @When("I get Transaction history no token")
+    public void iGetTransactionHistoryNoToken() {
+        transaction.Transactionhistorynotoken();
+    }
 }
 

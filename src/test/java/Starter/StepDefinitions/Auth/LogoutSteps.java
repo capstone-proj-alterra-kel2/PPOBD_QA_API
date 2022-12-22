@@ -45,5 +45,6 @@ public class LogoutSteps {
         public void iWillGetStatusFailedLogout400() {
                 logout.notoken();
         }
+
 }
 
